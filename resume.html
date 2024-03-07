@@ -4,91 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jeeva's Resume</title>
-    <link rel="icon" type="image/jpg" href="images\gitlogo.jpg">
     <link rel="stylesheet" href="resume.css">
 </head>
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        line-height: 1.6;
-        margin: 20px;
-        padding: 20px;
-        background-color: #f4f4f4;
-    }
-    .container {
-        max-width: 800px;
-        margin: auto;
-        background: #fff;
-        padding: 20px;
-        border-radius: 5px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    h1, h2, h3 {
-        color: #333;
-    }
-    p {
-        margin-bottom: 10px;
-    }
-    .contact {
-        margin-bottom: 20px;
-    }
-    .work, .education {
-        margin-bottom: 30px;
-    }
-</style>
-
 <body>
     <div class="container">
         <header>
             <h1>Jeeva J</h1>
+            
             <img 
                 src="images\gitlogo.jpg"
                 alt="photo" 
-                width="300px" 
-                height="auto" 
+                width="150px" 
+                height="150px" 
+                class="profile-img"
             >
-            <p class="contact">201 Maria Nivas, begur road, Bangalore, Karnataka, 560068 | 6363454797 | jeevajjeeva2004@gmail.com | LinkedIn: linkedin.com/in/jeeva</p>
         </header>
-        
-        <section class="work">
-            <h2>Work Experience</h2>
-            <h3>Software Developer</h3>
-            <p><strong>Company Name</strong>, Bangalore, Karnataka| Month Year - 22/02/2024</p>
-            <ul>
-                <li>Developed and maintained web applications using HTML, CSS, and JavaScript.</li>
-                <li>Collaborated with cross-functional teams to deliver high-quality software products.</li>
-                <li>Implemented responsive design principles to ensure compatibility across various devices.</li>
-            </ul>
-        </section>
-        
-        <section class="education">
-            <h2>Education</h2>
-            <h3>Bachelor of Computer Applications</h3>
-            <p><strong>Dayananda Sagar University</strong>, Bangalore, Karnataka | 2025</p>
-        </section>
-        
-        <section class="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Java</li>
-                <li>Python</li>
-                <li>SQL</li>
-                <li>Git</li>
-            </ul>
-        </section>
 
-        <section class="hobbies">
-            <h2>Hobbies</h2>
-            <ul>
-                <li>watching Movies</li>
-                <li>Football</li>
-                <li>Gym</li>
-                <li>badminton</li>
-            </ul>
-        </section>
+        <div class="border-layout parallax work">
+            <section class="work">
+                <h2>Work Experience</h2>
+                <h3>Software Developer</h3>
+                <p><strong>Company Name</strong>, Bangalore, Karnataka | Month Year - 22/02/2024</p>
+                <ul>
+                    <li>Developed and maintained web applications using HTML, CSS, and JavaScript.</li>
+                    <li>Collaborated with cross-functional teams to deliver high-quality software products.</li>
+                    <li>Implemented responsive design principles to ensure compatibility across various devices.</li>
+                </ul>
+            </section>
+        </div>
+        
+        <div class="border-layout parallax education">
+            <section class="education">
+                <h2>Education</h2>
+                <h3>Bachelor of Computer Applications</h3>
+                <p><strong>Dayananda Sagar University</strong>, Bangalore, Karnataka | 2025</p>
+            </section>
+        </div>
+        
+        <div class="border-layout parallax skills">
+            <section class="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>SQL</li>
+                    <li>Git</li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="border-layout parallax hobbies">
+            <section class="hobbies">
+                <h2>Hobbies</h2>
+                <ul>
+                    <li>Watching Movies</li>
+                    <li>Football</li>
+                    <li>Gym</li>
+                    <li>Badminton</li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="border-layout parallax my-system">
+            <section class="my-system">
+                <h2>My System</h2>
+                <p>Passion. Commitment. Perseverance. With these three pillars, I navigate through the complex world of software development. My system revolves around a relentless pursuit of excellence, continuous learning, and effective collaboration. I thrive in dynamic environments where challenges fuel my growth and creativity.</p>
+            </section>
+        </div>
+
+        <footer>
+            <p class="contact">201 Maria Nivas, Begur Road, Bangalore, Karnataka, 560068 | 6363454797 | LinkedIn: <a href="linkedin.com/in/jeeva" target="_blank">linkedin.com/in/jeeva</a></p>
+        </footer>
     </div>
 </body>
 </html>
